@@ -761,16 +761,16 @@
         },
         {
             "name": "hyperf/contract",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/contract.git",
-                "reference": "8f2eb269422b87337c9648786555346d9e3f45b3"
+                "reference": "c213d9095339eee87df61e35a412e01b7bdd97f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/contract/zipball/8f2eb269422b87337c9648786555346d9e3f45b3",
-                "reference": "8f2eb269422b87337c9648786555346d9e3f45b3",
+                "url": "https://api.github.com/repos/hyperf/contract/zipball/c213d9095339eee87df61e35a412e01b7bdd97f3",
+                "reference": "c213d9095339eee87df61e35a412e01b7bdd97f3",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -811,20 +811,20 @@
                 "php",
                 "swoole"
             ],
-            "time": "2020-06-19T13:11:07+00:00"
+            "time": "2020-06-24T23:15:36+00:00"
         },
         {
             "name": "hyperf/database",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/database.git",
-                "reference": "2ddbbd186487df79f9d4d00784e451308f083306"
+                "reference": "0f9b4fef2662c2d28baf06858e4d15c62606f01e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/database/zipball/2ddbbd186487df79f9d4d00784e451308f083306",
-                "reference": "2ddbbd186487df79f9d4d00784e451308f083306",
+                "url": "https://api.github.com/repos/hyperf/database/zipball/0f9b4fef2662c2d28baf06858e4d15c62606f01e",
+                "reference": "0f9b4fef2662c2d28baf06858e4d15c62606f01e",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -873,7 +873,7 @@
                 "hyperf",
                 "php"
             ],
-            "time": "2020-06-19T13:11:07+00:00"
+            "time": "2020-07-01T02:24:01+00:00"
         },
         {
             "name": "hyperf/db-connection",
@@ -940,16 +940,16 @@
         },
         {
             "name": "hyperf/di",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/di.git",
-                "reference": "2c29ecb02bdfcee01457f567973135e9d19313cc"
+                "reference": "4ea256740390f5d81268390b15f3fb68a3c5aa24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/di/zipball/2c29ecb02bdfcee01457f567973135e9d19313cc",
-                "reference": "2c29ecb02bdfcee01457f567973135e9d19313cc",
+                "url": "https://api.github.com/repos/hyperf/di/zipball/4ea256740390f5d81268390b15f3fb68a3c5aa24",
+                "reference": "4ea256740390f5d81268390b15f3fb68a3c5aa24",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1009,7 +1009,7 @@
                 "php",
                 "swoole"
             ],
-            "time": "2020-06-19T13:11:07+00:00"
+            "time": "2020-07-02T01:45:50+00:00"
         },
         {
             "name": "hyperf/dispatcher",
@@ -1332,16 +1332,16 @@
         },
         {
             "name": "hyperf/http-message",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/http-message.git",
-                "reference": "fae392db328dc27b7b046897852dd7dc0f3ebeb9"
+                "reference": "c27e35ddb14b2cfe4a8a93a94becb432e978f45b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/http-message/zipball/fae392db328dc27b7b046897852dd7dc0f3ebeb9",
-                "reference": "fae392db328dc27b7b046897852dd7dc0f3ebeb9",
+                "url": "https://api.github.com/repos/hyperf/http-message/zipball/c27e35ddb14b2cfe4a8a93a94becb432e978f45b",
+                "reference": "c27e35ddb14b2cfe4a8a93a94becb432e978f45b",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1386,20 +1386,20 @@
                 "php",
                 "swoole"
             ],
-            "time": "2020-06-19T13:11:07+00:00"
+            "time": "2020-06-23T02:44:43+00:00"
         },
         {
             "name": "hyperf/http-server",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/http-server.git",
-                "reference": "2452fee0152ef2de3c4548ca1124ea39f2d041bc"
+                "reference": "389daa48b2cefc44f41453eb912026668f61086c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/http-server/zipball/2452fee0152ef2de3c4548ca1124ea39f2d041bc",
-                "reference": "2452fee0152ef2de3c4548ca1124ea39f2d041bc",
+                "url": "https://api.github.com/repos/hyperf/http-server/zipball/389daa48b2cefc44f41453eb912026668f61086c",
+                "reference": "389daa48b2cefc44f41453eb912026668f61086c",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1457,7 +1457,7 @@
                 "php",
                 "swoole"
             ],
-            "time": "2020-06-19T13:11:07+00:00"
+            "time": "2020-07-01T10:21:32+00:00"
         },
         {
             "name": "hyperf/logger",
@@ -1901,16 +1901,16 @@
         },
         {
             "name": "hyperf/server",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/server.git",
-                "reference": "57a0806d40141b1117729052e19c0787b53a7b46"
+                "reference": "b6706e9a87cffd9627bfbd97ec959314c6d3dd6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/server/zipball/57a0806d40141b1117729052e19c0787b53a7b46",
-                "reference": "57a0806d40141b1117729052e19c0787b53a7b46",
+                "url": "https://api.github.com/repos/hyperf/server/zipball/b6706e9a87cffd9627bfbd97ec959314c6d3dd6e",
+                "reference": "b6706e9a87cffd9627bfbd97ec959314c6d3dd6e",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1964,7 +1964,7 @@
                 "server",
                 "swoole"
             ],
-            "time": "2020-06-19T13:11:07+00:00"
+            "time": "2020-06-25T02:05:07+00:00"
         },
         {
             "name": "hyperf/utils",
@@ -5240,16 +5240,16 @@
         },
         {
             "name": "hyperf/devtool",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/devtool.git",
-                "reference": "1ff7a4572079abb54b64e7d35dafbacc98f0d17c"
+                "reference": "170b68013548ef60222ebbfadf976552971c8c9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/devtool/zipball/1ff7a4572079abb54b64e7d35dafbacc98f0d17c",
-                "reference": "1ff7a4572079abb54b64e7d35dafbacc98f0d17c",
+                "url": "https://api.github.com/repos/hyperf/devtool/zipball/170b68013548ef60222ebbfadf976552971c8c9f",
+                "reference": "170b68013548ef60222ebbfadf976552971c8c9f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5297,7 +5297,7 @@
                 "php",
                 "swoole"
             ],
-            "time": "2020-06-19T13:11:07+00:00"
+            "time": "2020-07-02T03:39:06+00:00"
         },
         {
             "name": "hyperf/testing",
