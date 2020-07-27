@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package cti;
+
+message AgentCmdRequest {
+    string jsonRequest = 1;
+}
+
+message AgentCmdReply {
+    string jsonReply = 1;
+}
+
+service Cti {
+    rpc AgentCmd ( AgentCmdRequest) returns ( AgentCmdReply) {}
+}

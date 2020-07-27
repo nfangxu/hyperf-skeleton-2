@@ -24,7 +24,9 @@
         "hyperf/logger": "~2.0.0",
         "hyperf/memory": "~2.0.0",
         "hyperf/process": "~2.0.0",
-        "hyperf/redis": "~2.0.0"
+        "hyperf/redis": "~2.0.0",
+        "hyperf/grpc-server": "^2.0",
+        "hyperf/grpc-client": "^2.0"
     },
     "require-dev": {
         "swoole/ide-helper": "^4.4",
@@ -45,7 +47,9 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Cti\\": "grpc/Cti",
+            "GPBMetadata\\": "grpc/GPBMetadata"
         },
         "files": []
     },

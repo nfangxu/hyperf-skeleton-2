@@ -9,18 +9,26 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
+
 namespace App\Controller;
+
+use App\CtiClient;
+use Cti\AgentCmdReply;
 
 class IndexController extends AbstractController
 {
     public function index()
     {
-        $user = $this->request->input('user', 'Hyperf');
-        $method = $this->request->getMethod();
+        /** @var AgentCmdReply $res */
+        $res = (new CtiClient('127.0.0.1:9503', ['credentials' => null]))->fuck('{"action":15,"fuck":"6690170531783684096"}');
 
-        return [
-            'method' => $method,
-            'message' => "Hello {$user}.",
-        ];
+        var_dump($res);
+
+        return $res->serializeToJsonString();
+    }
+
+    public function cmd()
+    {
+        return new AgentCmdReply;
     }
 }

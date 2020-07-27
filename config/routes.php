@@ -12,3 +12,9 @@ declare(strict_types=1);
 use Hyperf\HttpServer\Router\Router;
 
 Router::addRoute(['GET', 'POST', 'HEAD'], '/', 'App\Controller\IndexController@index');
+
+Router::addServer('grpc', function () {
+    Router::addGroup('/cti.Cti', function () {
+        Router::post('/AgentCmd', 'App\Controller\IndexController@cmd');
+    });
+});
