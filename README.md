@@ -1,36 +1,63 @@
-# Introduction
+## Swoole `php --ri swoole`
 
-This is a skeleton application using the Hyperf framework. This application is meant to be used as a starting place for those looking to get their feet wet with Hyperf Framework.
+```
+swoole
 
-# Requirements
+Swoole => enabled
+Author => Swoole Team <team@swoole.com>
+Version => 4.5.2
+Built => Jun 22 2020 10:30:15
+coroutine => enabled
+kqueue => enabled
+rwlock => enabled
+sockets => enabled
+openssl => OpenSSL 1.1.1d  10 Sep 2019
+http2 => enabled
+pcre => enabled
+zlib => 1.2.11
+brotli => E16777223/D16777223
+mysqlnd => enabled
+async_redis => enabled
 
-Hyperf has some requirements for the system environment, it can only run under Linux and Mac environment, but due to the development of Docker virtualization technology, Docker for Windows can also be used as the running environment under Windows.
+Directive => Local Value => Master Value
+swoole.enable_coroutine => On => On
+swoole.enable_library => On => On
+swoole.enable_preemptive_scheduler => Off => Off
+swoole.display_errors => On => On
+swoole.use_shortname => Off => Off
+swoole.unixsock_buffer_size => 262144 => 262144
 
-The various versions of Dockerfile have been prepared for you in the [hyperf\hyperf-docker](https://github.com/hyperf/hyperf-docker) project, or directly based on the already built [hyperf\hyperf](https://hub.docker.com/r/hyperf/hyperf) Image to run.
+```
 
-When you don't want to use Docker as the basis for your running environment, you need to make sure that your operating environment meets the following requirements:  
+## Hyperf `composer info | grep hyperf`
 
- - PHP >= 7.2
- - Swoole PHP extension >= 4.4，and Disabled `Short Name`
- - OpenSSL PHP extension
- - JSON PHP extension
- - PDO PHP extension （If you need to use MySQL Client）
- - Redis PHP extension （If you need to use Redis Client）
- - Protobuf PHP extension （If you need to use gRPC Server of Client）
-
-# Installation using Composer
-
-The easiest way to create a new Hyperf project is to use Composer. If you don't have it already installed, then please install as per the documentation.
-
-To create your new Hyperf project:
-
-$ composer create-project hyperf/hyperf-skeleton path/to/install
-
-Once installed, you can run the server immediately using the command below.
-
-$ cd path/to/install
-$ php bin/hyperf.php start
-
-This will start the cli-server on port `9501`, and bind it to all network interfaces. You can then visit the site at `http://localhost:9501/`
-
-which will bring up Hyperf default home page.
+```
+hyperf/cache                         v2.0.3   A cache component for hyperf.
+hyperf/command                       v2.0.3   Command for hyperf
+hyperf/config                        v2.0.3   An independent component that pr...
+hyperf/contract                      v2.0.3   The contracts of Hyperf.
+hyperf/database                      v2.0.3   A flexible database library.
+hyperf/db-connection                 v2.0.3   A hyperf db connection handler f...
+hyperf/devtool                       v2.0.3   A Devtool for Hyperf.
+hyperf/di                            v2.0.3   A DI for Hyperf.
+hyperf/dispatcher                    v2.0.3   A HTTP Server for Hyperf.
+hyperf/event                         v2.0.3   an event manager that implements...
+hyperf/exception-handler             v2.0.3   Exception handler for hyperf
+hyperf/framework                     v2.0.3   A coroutine framework that focus...
+hyperf/grpc                          v2.0.3   A GRPC basic library for Hyperf.
+hyperf/grpc-client                   v2.0.3   A GRPC Client for Hyperf.
+hyperf/grpc-server                   v2.0.3   A GRPC Server for Hyperf.
+hyperf/guzzle                        v2.0.3   Swoole coroutine handler for guzzle
+hyperf/http-message                  v2.0.3   microservice framework base on s...
+hyperf/http-server                   v2.0.3   A HTTP Server for Hyperf.
+hyperf/logger                        v2.0.3   A logger component for hyperf.
+hyperf/memory                        v2.0.3   An independent component that us...
+hyperf/model-listener                v2.0.3   A model listener for Hyperf.
+hyperf/paginator                     v2.0.3   A paginator component for hyperf.
+hyperf/pool                          v2.0.3   An independent universal connect...
+hyperf/process                       v2.0.3   A process component for hyperf.
+hyperf/redis                         v2.0.3   A redis component for hyperf.
+hyperf/server                        v2.0.3   A base server library for Hyperf.
+hyperf/testing                       v2.0.3   Testing for hyperf
+hyperf/utils                         v2.0.0   A tools package that could help ...
+```
