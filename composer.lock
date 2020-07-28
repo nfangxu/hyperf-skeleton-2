@@ -815,16 +815,16 @@
         },
         {
             "name": "hyperf/database",
-            "version": "v2.0.3",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/database.git",
-                "reference": "482a8fb47790d73db57ca1feb5539ec47d6857d7"
+                "reference": "5721641842134850b3df357e64957c38b63adb59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/database/zipball/482a8fb47790d73db57ca1feb5539ec47d6857d7",
-                "reference": "482a8fb47790d73db57ca1feb5539ec47d6857d7",
+                "url": "https://api.github.com/repos/hyperf/database/zipball/5721641842134850b3df357e64957c38b63adb59",
+                "reference": "5721641842134850b3df357e64957c38b63adb59",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -873,7 +873,7 @@
                 "hyperf",
                 "php"
             ],
-            "time": "2020-07-16T09:18:31+00:00"
+            "time": "2020-07-24T05:43:43+00:00"
         },
         {
             "name": "hyperf/db-connection",
@@ -940,16 +940,16 @@
         },
         {
             "name": "hyperf/di",
-            "version": "v2.0.3",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/di.git",
-                "reference": "31dc1e6227c020a1b88bbf34eb9f32ca6678134f"
+                "reference": "d50592cb7aa1d987438287b7b9dc554f61f1e9fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/di/zipball/31dc1e6227c020a1b88bbf34eb9f32ca6678134f",
-                "reference": "31dc1e6227c020a1b88bbf34eb9f32ca6678134f",
+                "url": "https://api.github.com/repos/hyperf/di/zipball/d50592cb7aa1d987438287b7b9dc554f61f1e9fb",
+                "reference": "d50592cb7aa1d987438287b7b9dc554f61f1e9fb",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1006,7 +1006,7 @@
                 "php",
                 "swoole"
             ],
-            "time": "2020-07-15T06:57:12+00:00"
+            "time": "2020-07-23T09:37:04+00:00"
         },
         {
             "name": "hyperf/dispatcher",
@@ -1386,16 +1386,16 @@
         },
         {
             "name": "hyperf/http-server",
-            "version": "v2.0.3",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/http-server.git",
-                "reference": "5a028f4f51836e0243d2f007ebcc48cda71ebacc"
+                "reference": "b5a2a1ca9189ac38b15eca067c49304066ada159"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/http-server/zipball/5a028f4f51836e0243d2f007ebcc48cda71ebacc",
-                "reference": "5a028f4f51836e0243d2f007ebcc48cda71ebacc",
+                "url": "https://api.github.com/repos/hyperf/http-server/zipball/b5a2a1ca9189ac38b15eca067c49304066ada159",
+                "reference": "b5a2a1ca9189ac38b15eca067c49304066ada159",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1453,7 +1453,7 @@
                 "php",
                 "swoole"
             ],
-            "time": "2020-07-17T11:00:08+00:00"
+            "time": "2020-07-22T05:00:08+00:00"
         },
         {
             "name": "hyperf/logger",
