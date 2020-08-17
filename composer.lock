@@ -628,16 +628,16 @@
         },
         {
             "name": "hyperf/command",
-            "version": "v2.0.3",
+            "version": "v2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/command.git",
-                "reference": "721363c9d36884df18be903bf0aa64beb595395b"
+                "reference": "1d055d6529ffa08429ec518496864fd7d7fa513a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/command/zipball/721363c9d36884df18be903bf0aa64beb595395b",
-                "reference": "721363c9d36884df18be903bf0aa64beb595395b",
+                "url": "https://api.github.com/repos/hyperf/command/zipball/1d055d6529ffa08429ec518496864fd7d7fa513a",
+                "reference": "1d055d6529ffa08429ec518496864fd7d7fa513a",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -682,7 +682,7 @@
                 "php",
                 "swoole"
             ],
-            "time": "2020-07-15T09:05:45+00:00"
+            "time": "2020-08-02T05:41:46+00:00"
         },
         {
             "name": "hyperf/config",
@@ -1898,16 +1898,16 @@
         },
         {
             "name": "hyperf/server",
-            "version": "v2.0.3",
+            "version": "v2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/server.git",
-                "reference": "de321757cb849417d9e4765cb837a406f265aef9"
+                "reference": "c408249b2b51d4e70ee1055b349edd031cba0c01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/server/zipball/de321757cb849417d9e4765cb837a406f265aef9",
-                "reference": "de321757cb849417d9e4765cb837a406f265aef9",
+                "url": "https://api.github.com/repos/hyperf/server/zipball/c408249b2b51d4e70ee1055b349edd031cba0c01",
+                "reference": "c408249b2b51d4e70ee1055b349edd031cba0c01",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1961,7 +1961,7 @@
                 "server",
                 "swoole"
             ],
-            "time": "2020-07-15T09:05:45+00:00"
+            "time": "2020-08-01T03:47:33+00:00"
         },
         {
             "name": "hyperf/utils",
