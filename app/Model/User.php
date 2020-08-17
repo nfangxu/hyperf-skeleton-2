@@ -1,13 +1,18 @@
 <?php
 
 declare (strict_types=1);
+
 namespace App\Model;
 
 use Hyperf\DbConnection\Model\Model;
+use Fx\HyperfHttpAuth\Contract\Authenticatable;
+
 /**
  */
-class User extends Model
+class User extends Model implements Authenticatable
 {
+    use \Fx\HyperfHttpAuth\Authenticatable;
+
     /**
      * The table associated with the model.
      *
