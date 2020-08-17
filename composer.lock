@@ -464,16 +464,16 @@
         },
         {
             "name": "fx/hyperf-http-auth",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nfangxu/hyperf-http-auth.git",
-                "reference": "e4b2840a801dd78846ae23ca4cb91c353073bcbf"
+                "reference": "8c65537d232e37534921b19cde636d0e9d17c83f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nfangxu/hyperf-http-auth/zipball/e4b2840a801dd78846ae23ca4cb91c353073bcbf",
-                "reference": "e4b2840a801dd78846ae23ca4cb91c353073bcbf",
+                "url": "https://api.github.com/repos/nfangxu/hyperf-http-auth/zipball/8c65537d232e37534921b19cde636d0e9d17c83f",
+                "reference": "8c65537d232e37534921b19cde636d0e9d17c83f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -520,11 +520,12 @@
             "license": [
                 "MIT"
             ],
+            "description": "use auth in hyperf as in laravel",
             "keywords": [
                 "hyperf",
                 "php"
             ],
-            "time": "2020-06-22T08:31:46+00:00"
+            "time": "2020-08-17T02:45:47+00:00"
         },
         {
             "name": "fx/session-guard",
