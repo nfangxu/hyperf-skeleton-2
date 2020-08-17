@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b52fe8ecf396b4af0cc07e8899cce6d",
+    "content-hash": "3ba0652e565b7d5be99472b258afab1e",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -296,6 +296,60 @@
             "time": "2020-05-25T17:44:05+00:00"
         },
         {
+            "name": "fangx/hyperf-cookie",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fangx-packages/hyperf-cookie.git",
+                "reference": "7d6e705ad42981d3a7228f02bf08a8dcd4d0f1aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fangx-packages/hyperf-cookie/zipball/7d6e705ad42981d3a7228f02bf08a8dcd4d0f1aa",
+                "reference": "7d6e705ad42981d3a7228f02bf08a8dcd4d0f1aa",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-swoole": ">=4.5",
+                "hyperf/di": "~2.0.0",
+                "hyperf/framework": "~2.0.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.14",
+                "hyperf/testing": "~2.0.0",
+                "phpstan/phpstan": "^0.12",
+                "swoole/ide-helper": "^4.5"
+            },
+            "type": "library",
+            "extra": {
+                "hyperf": {
+                    "config": "Fangx\\Cookie\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fangx\\Cookie\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "hyperf cookie support",
+            "keywords": [
+                "hyperf",
+                "php"
+            ],
+            "time": "2020-06-22T08:23:57+00:00"
+        },
+        {
             "name": "fig/http-message-util",
             "version": "1.1.4",
             "source": {
@@ -352,6 +406,182 @@
                 "response"
             ],
             "time": "2020-02-05T20:36:27+00:00"
+        },
+        {
+            "name": "fx/eloquent-provider",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nfangxu/hyperf-auth-eloquent-provider.git",
+                "reference": "467bdd3cf52972c81d2d2ff7523a72d09fd891f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nfangxu/hyperf-auth-eloquent-provider/zipball/467bdd3cf52972c81d2d2ff7523a72d09fd891f8",
+                "reference": "467bdd3cf52972c81d2d2ff7523a72d09fd891f8",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-swoole": ">=4.5",
+                "fx/hyperf-http-auth": "^2.0",
+                "hyperf/di": "~2.0.0",
+                "hyperf/framework": "~2.0.0",
+                "hyperf/utils": "~2.0.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.14",
+                "hyperf/testing": "~2.0.0",
+                "phpstan/phpstan": "^0.12",
+                "swoole/ide-helper": "^4.5"
+            },
+            "type": "library",
+            "extra": {
+                "hyperf": {
+                    "config": "Fx\\EloquentProvider\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fx\\EloquentProvider\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "keywords": [
+                "hyperf",
+                "php"
+            ],
+            "time": "2020-06-22T08:16:32+00:00"
+        },
+        {
+            "name": "fx/hyperf-http-auth",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nfangxu/hyperf-http-auth.git",
+                "reference": "e4b2840a801dd78846ae23ca4cb91c353073bcbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nfangxu/hyperf-http-auth/zipball/e4b2840a801dd78846ae23ca4cb91c353073bcbf",
+                "reference": "e4b2840a801dd78846ae23ca4cb91c353073bcbf",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-swoole": ">=4.5",
+                "hyperf/cache": "~2.0.0",
+                "hyperf/config": "~2.0.0",
+                "hyperf/di": "~2.0.0",
+                "hyperf/framework": "~2.0.0",
+                "hyperf/utils": "~2.0.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.14",
+                "hyperf/testing": "~2.0.0",
+                "phpstan/phpstan": "^0.12",
+                "swoole/ide-helper": "^4.5"
+            },
+            "suggest": {
+                "fx/eloquent-provider": "require fx/eloquent-provider(^2.0) to use eloquent user provider",
+                "fx/session-guard": "require fx/session-guard(^2.0) to use session guard provider"
+            },
+            "type": "library",
+            "extra": {
+                "hyperf": {
+                    "config": "Fx\\HyperfHttpAuth\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fx\\HyperfHttpAuth\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "keywords": [
+                "hyperf",
+                "php"
+            ],
+            "time": "2020-06-22T08:31:46+00:00"
+        },
+        {
+            "name": "fx/session-guard",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nfangxu/hyperf-auth-session-guard.git",
+                "reference": "1121d3317b44b3684db171b368f01b096038808f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nfangxu/hyperf-auth-session-guard/zipball/1121d3317b44b3684db171b368f01b096038808f",
+                "reference": "1121d3317b44b3684db171b368f01b096038808f",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-swoole": ">=4.5",
+                "fangx/hyperf-cookie": "^2.0",
+                "fx/hyperf-http-auth": "^2.0",
+                "hyperf/di": "~2.0.0",
+                "hyperf/framework": "~2.0.0",
+                "hyperf/session": "~2.0.0",
+                "hyperf/utils": "~2.0.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.14",
+                "hyperf/testing": "~2.0.0",
+                "phpstan/phpstan": "^0.12",
+                "swoole/ide-helper": "^4.5"
+            },
+            "type": "library",
+            "extra": {
+                "hyperf": {
+                    "config": "Fx\\SessionGuard\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fx\\SessionGuard\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "keywords": [
+                "hyperf",
+                "php"
+            ],
+            "time": "2020-06-22T08:18:55+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1962,6 +2192,67 @@
                 "swoole"
             ],
             "time": "2020-08-01T03:47:33+00:00"
+        },
+        {
+            "name": "hyperf/session",
+            "version": "v2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/session.git",
+                "reference": "78695c8dec41daf2ec88606bc5cc77737240d6ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/session/zipball/78695c8dec41daf2ec88606bc5cc77737240d6ab",
+                "reference": "78695c8dec41daf2ec88606bc5cc77737240d6ab",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "hyperf/utils": "~2.0.0",
+                "php": ">=7.2",
+                "psr/http-server-middleware": "^1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.9",
+                "malukenho/docheader": "^0.1.6",
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^7.0"
+            },
+            "suggest": {
+                "hyperf/config": "Required to load session config.",
+                "psr/container": "Required to use SessionFactory."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                },
+                "hyperf": {
+                    "config": "Hyperf\\Session\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hyperf\\Session\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A session library",
+            "homepage": "https://hyperf.io",
+            "keywords": [
+                "php",
+                "session"
+            ],
+            "time": "2020-07-23T08:00:00+00:00"
         },
         {
             "name": "hyperf/utils",
@@ -6246,6 +6537,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {
