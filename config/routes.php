@@ -12,3 +12,7 @@ declare(strict_types=1);
 use Hyperf\HttpServer\Router\Router;
 
 Router::addRoute(['GET', 'POST', 'HEAD'], '/', 'App\Controller\IndexController@index');
+
+Router::addRoute(['GET', 'POST', 'HEAD'], '/set-session', 'App\Controller\IndexController@setSession');
+
+Router::addRoute(['GET', 'POST', 'HEAD'], '/set-session-with-exception', 'App\Controller\IndexController@setSessionWithException');

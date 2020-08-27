@@ -9,18 +9,33 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
+
 namespace App\Controller;
+
+use App\Exception\ExampleException;
+use Hyperf\Contract\SessionInterface;
+use Hyperf\Di\Annotation\Inject;
 
 class IndexController extends AbstractController
 {
+    /**
+     * @Inject
+     * @var SessionInterface
+     */
+    protected $session;
+
     public function index()
     {
-        $user = $this->request->input('user', 'Hyperf');
-        $method = $this->request->getMethod();
+        return $this->session->all();
+    }
 
-        return [
-            'method' => $method,
-            'message' => "Hello {$user}.",
-        ];
+    public function setSession()
+    {
+        $this->session->put('test', 'fangx');
+    }
+
+    public function setSessionWithException()
+    {
+        throw new ExampleException('exception is toggled.');
     }
 }
