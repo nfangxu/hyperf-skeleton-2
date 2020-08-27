@@ -25,9 +25,10 @@
         "hyperf/memory": "~2.0.0",
         "hyperf/process": "~2.0.0",
         "hyperf/redis": "~2.0.0",
-        "fx/hyperf-http-auth": "^2.0",
         "fx/eloquent-provider": "^2.0",
-        "fx/session-guard": "^2.0"
+        "fx/session-guard": "^2.0",
+        "fx/hyperf-http-auth": "^2.0",
+        "symfony/var-dumper": "^5.1"
     },
     "require-dev": {
         "swoole/ide-helper": "^4.4",
