@@ -24,7 +24,9 @@
         "hyperf/logger": "~2.0.0",
         "hyperf/memory": "~2.0.0",
         "hyperf/process": "~2.0.0",
-        "hyperf/redis": "~2.0.0"
+        "hyperf/redis": "~2.0.0",
+        "hyperf/tracer": "^2.0",
+        "jonahgeorge/jaeger-client-php": "0.4.4"
     },
     "require-dev": {
         "swoole/ide-helper": "^4.4",
