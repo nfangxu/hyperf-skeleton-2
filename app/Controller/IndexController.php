@@ -11,8 +11,14 @@ declare(strict_types=1);
  */
 namespace App\Controller;
 
+use App\Middleware\TestMiddleware;
+use Hyperf\HttpServer\Annotation\Middleware;
+
 class IndexController extends AbstractController
 {
+    /**
+     * @Middleware(TestMiddleware::class)
+     */
     public function index()
     {
         $user = $this->request->input('user', 'Hyperf');
@@ -22,5 +28,10 @@ class IndexController extends AbstractController
             'method' => $method,
             'message' => "Hello {$user}.",
         ];
+    }
+
+    public function test()
+    {
+        return 'success';
     }
 }
