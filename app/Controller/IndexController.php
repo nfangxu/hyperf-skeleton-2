@@ -56,19 +56,17 @@ class IndexController extends AbstractController
 
     private function toRequest(RequestInterface $request, $path = '')
     {
-        $config = parse_url('https://baidu.com');
-
         $uri = $request->getUri()
-            ->withScheme($config['scheme'] ?? 'http')
-            ->withHost($config['host'] ?? '')
-            ->withPath(sprintf('/%s/%s', trim($config['path'] ?? '', '/'), ltrim($path, '/')));
+            ->withScheme('https')
+            ->withHost('www.baidu.com')
+            ->withPort(443)
+            ->withPath('/');
 
         foreach ($request->getHeaders() as $header => $value) {
             if (! in_array($header, [
                 'content-type',
                 'user-agent',
                 'authorization',
-                'cookie',
                 'accept',
             ])) {
                 $request = $request->withoutHeader($header);
